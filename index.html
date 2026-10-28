@@ -1,0 +1,162 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fitness Design System</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Fitness & Training Design System</h1>
+            <p> A design system for a fitness and training website.</p>
+        </header>
+        <main>
+            <section id="foundation">
+                <h2>S1: Foundation and Reset</h2>
+                <p>
+                    This section demonstrates the foundational CSS rules used throughout the fitness design system.
+                </p>
+                <p>
+                    My CSS reset used box-sizing: border-box to make the element widths easier to manage. It also strips default body margins and padding to create a consistent starting point.
+                </p>
+            </section>
+            <section id="tokens">
+                <h2>S2: Token Inventory</h2>
+                <p>
+                    This section shows the reusable design values for our fitness website.
+                </p>
+                <h3>Color Tokens</h3>
+                <ul>
+                    <li>Primary: #2563eb - Main buttons and header</li>
+                    <li>Secondary: #16a34a - Hover and focus states</li>
+                    <li>Background: #f8fafc - Main page background</li>
+                    <li>Surface: #ffffff - Cards and content sections</li>
+                    <li>Text: #1e293b - Main readable text</li>
+                    <li>Border: #cbd5e1 - Component borders</li>
+                </ul>
+                <h3>Other Design Tokens</h3>
+                <ul>
+                    <li>Spacing: 8px, 16px, 24px, 40px -Gaps and padding</li>
+                    <li>Content Width: 1100px - Limits line length</li>
+                    <li>Border Radius: 8px - Rounded corners</li>
+                    <li>Shadow: 0 4px 12px rgba(0, 0, 0, 0.1) - Card elevation</li>
+                    <li>Font: Arial, Helvetica, sans-serif - typography with fallbacks</li>
+                    <li>Base Font Size: 16px - Standard body text</li>
+                </ul>
+            </section>
+            <section id="typography">
+                <h2>S3: Typography</h2>
+                <h3>Strength and Endurance Training</h3>
+                <p>
+                    Our fitness platform helps people build strength, improve endurance, and develop consistent training habits.
+                </p>
+
+                <h4>Training Categories</h4>
+                <ul>
+                    <li>Strength Training</li>
+                    <li>Running and Endurance</li>
+                    <li>Mobility and Recovery</li>
+                </ul>
+
+                <p>
+                    <small>Updated as of October 2026</small>
+                </p>
+
+                <p>
+                    Example CSS property: <code>font-size</code>
+                </p>
+
+                <p>
+                    <a href="#foundation">View Foundation Section</a>
+                </p>
+            </section>
+            <section id="actions">
+                <h2>S4: Actions and States</h2>
+                <p>
+                    These buttons demonstrate different actions available on our fitness website.
+                </p>
+                <button type="button">Start Training</button>
+                <button type="button" class="button-secondary">View Programs</button>
+                <button type="button" disabled>
+                    Training Unavailable
+                </button>
+                <p>
+                    <a href="#typography">View Training Information</a>
+                </p>
+            </section>
+            <section id="surfaces">
+                <h2>S5:Surfaces and Content</h2>
+
+                <p>These cards display different fitness training programs.</p>
+
+                <article class="training-card">
+                    <h3>Strength Training</h3>
+                    <p>
+                        Build muscle, increase gains, and improve overall health.
+                    </p>
+                </article>
+                <article class="training-card">
+                    <h3>Endurance Training</h3>
+                    <p>
+                        Improve Cardiovascular fitness through running and conditioning.
+                    </p>
+                </article>
+                <aside class="training-notice">
+                    <strong>Training Reminder</strong>
+                    <p>
+                        Consistency, proper recovery, and progressive overload are essential for long-term fitness.
+                    </p>
+                </aside>
+                <div class="media-placeholder" role="img"
+                aria-label="Placeholder for a fitness training image">
+            <p>Fitness Training Image Placeholder</p>
+        </div>
+            </section>
+            <section id="controls">
+                <h2>S6: Control Foundations</h2>
+                <p>
+                    This form demonstrates basic input controls for our fitness website.
+                </p>
+                <form>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="goal">Training Goal</label>
+                    <select id="goal" name="goal">
+                        <option value="strength">Build Strength</option>
+                        <option value="endurance">Improve Endurance</option>
+                        <option value="mobility">Improve Mobility</option>
+                    </select>
+                    <label>
+                        <input type="checkbox" name="updates">
+                        Receive Training Updates
+                    </label>
+                    <fieldset>
+                        <legend>Preferred Training Location</legend>
+                        <label>
+                            <input type="radio" name="location" value="gym">
+                            gym
+                        </label>
+
+                        <label>
+                            <input type="radio" name="location" value="home">
+                            home
+                        </label>
+                    </fieldset>
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+            <section class="theme-dark">
+                <h2>Alternate Theme: Dark Mode</h2>
+                <p>
+                    This section shows the alternate color theme for our fitness design system.
+                </p>
+                <button type="button">Start Training</button>
+                <button type="button" disabled>
+                    Training Unavailable
+                </button>
+            </section>
+        </main>
+    </body>
+</html>
