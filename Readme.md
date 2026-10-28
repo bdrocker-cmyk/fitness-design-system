@@ -20,3 +20,14 @@ This is a fitness-themed design system built using HTML and CSS. Showing reusabl
 
 # AI disclosure
 I used AI to help understand assignment requirements, explain concepts, troubleshoot syntax errors, and guide testing process. I reviewed the changes, implemented all VS code and tested the site.
+
+## Repository URL
+https://github.com/bdrocker-cmyk/fitness-design-system
+## Published Website
+https://bdrocker-cmyk.github.io/fitness-design-system/
+
+-HTML Validation
+W3C Validator had no errors, PASSED
+
+-CSS Validation
+W3C css validator reported no errors, PASSED
